@@ -11,7 +11,7 @@
 
 ### Metodología
 
-Para el trabajo se utilizaron en primer lugar los resultados electorales obtenidos de la página [Resultados electorales PASO 2021]( https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso) así como los circuitos en formato shape de la página [Circuitos Electorales Argentina](https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso).
+Para el trabajo se utilizaron los resultados electorales de las PASO 2021 obtenidos de la página [Resultados electorales PASO 2021]( https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso) así como los circuitos en formato shape de la página [Circuitos Electorales Argentina](https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso).
 
 En primer lugar se decidió trabajar con los votos de las elecciones para diputados provinciales descartando en consecuencia los votos para diputados nacionales, en segundo lugar obtuvimos los votos positivos de todas las agrupaciones por circuito (así como los votos positivos totales por circuito), en paralelo tambien obtuvimos el agregado de votos por agrupación en el total de la provincia para ordenar y asó obtener las cuatro fuerzas más votadas. Acto seguido utilizamos éstas para filtrar nuestra base anterior con los votos por circuito y agrupación.
 Todo lo anterior fue realizado con la herramienta de R con el script paso2021_ch_dp.R.
