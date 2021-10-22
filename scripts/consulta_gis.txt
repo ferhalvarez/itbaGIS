@@ -1,0 +1,7 @@
+select st_union(geom), departamen, 
+sum("frente de todos"::float)/sum(votospositivos::float)*100 as "Frente de Todos",
+sum("chaco cambia + juntos por el cambio"::float)/sum(votospositivos::float)*100 as "Chaco Cambia + Juntos por el Cambio",
+sum("frente integrador"::float)/sum(votospositivos::float)*100 as "Frente Integrado",
+sum("del obrero"::float)/sum(votospositivos::float)*100 as "Del Obrero"
+from circuito_ch
+group by departamen
