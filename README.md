@@ -18,4 +18,4 @@ Todo lo anterior fue realizado con la herramienta de R con el script paso2021_ch
 
 Una vez realizado esto se pasó dicha base ya procesada junto con el shape de los circuitos a la herramienta QGIS donde mediante un join se les asigno a cada circuito sus correspondientes datos de la elección, luego de haber subido esta nueva base a PostgreSQL, realizamos a la misma (dentro de QGIS) la consulta que se encuentra en el archivo consult_gis.txt obteniendo como resultado final el porcentaje de votos obtenidos por cada fuerza por departamento.
 
-Finalmente realizamos cuatro mapas coroplecticos pintado cada uno según el porcentaje obtenido por cada fuerza por circuito electoral, concluyendo el trabajo en el pdf "Paso 2021 Chaco.pdf.
+Finalmente realizamos cuatro mapas coroplecticos pintado cada uno según el porcentaje obtenido por cada fuerza por circuito electoral, concluyendo el trabajo en el [siguiente archivo](https://github.com/ferhalvarez/itbaGIS/blob/main/PASO%202021%20Chaco.pdf)
